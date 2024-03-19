@@ -1,5 +1,12 @@
-trigger:
-- main
+resources:
+ repositories:
+ - repository: test-e2e-metro
+   type: git
+   name: test-e2e-metro
+   ref: main
+   trigger:
+   - main
+
 
 pool:
   vmImage: 'ubuntu-latest'
