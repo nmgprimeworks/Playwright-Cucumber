@@ -1,11 +1,12 @@
 resources:
  repositories:
- - repository: test-e2e-metro
+ - repository: prueba
    type: git
    name: test-e2e-metro
    ref: main
-   trigger:
-   - main
+   
+trigger:
+- main
 
 
 pool:
