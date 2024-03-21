@@ -15,6 +15,7 @@ Playwright end-to-end test automation with CucumberJS
  
 ## To execute the tests
 
+
 Define the scripts in package.json as follows :
 ```json
 "scripts": {
