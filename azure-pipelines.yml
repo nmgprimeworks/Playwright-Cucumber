@@ -1,7 +1,13 @@
-
+resources:
+ repositories:
+ - repository: prueba
+   type: git
+   name: test-e2e-metro
+   ref: main
    
 trigger:
 - main
+   
 
 
 pool:
